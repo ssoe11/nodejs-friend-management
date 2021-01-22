@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Jena",
+    "email": "jena.tan@gmail.com",
+    "friends": [{ "email": "luna.tan@gmail.com", "isBlock": false }],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  },
+  {
+    "name": "Luna",
+    "email": "luna.tan@gmail.com",
+    "friends": [{ "email": "luna.tan@gmail.com", "isBlock": true }],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  },
+  {
+    "name": "Mike",
+    "email": "mike.lee@gmail.com",
+    "friends": [{ "email": "luna.tan@gmail.com", "isBlock": false }],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  },
+  {
+    "name": "Min",
+    "email": "min.lee@gmail.com",
+    "friends": [
+      { "email": "luna.tan@gmail.com", "isBlock": false },
+      { "email": "mike.lee@gmail.com", "isBlock": false }
+    ],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  }
+]

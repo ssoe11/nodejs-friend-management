@@ -1,0 +1,65 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/user?email=jena.tan@gmail.com
+
+
+###
+GET http://localhost:3000/user
+
+###
+POST http://localhost:3000/user/add-account
+Content-Type: application/json
+
+{
+    "name":"Emmy Lin",
+    "email" : "emmy.lin@gmail.com"
+}
+
+
+###
+PUT http://localhost:3000/user/link-up
+Content-Type: application/json
+
+{
+    "email" : "jena.tan@gmail.com",
+    "friendEmail": "mike.lee@gmail.com"
+}
+
+###
+GET http://localhost:3000/user/friends-list/jena.tan@gmail.com
+
+###
+GET http://localhost:3000/user/friends-update-list/jena.tan@gmail.com
+
+###
+GET http://localhost:3000/user/friends-list/b
+
+###
+PUT http://localhost:3000/user/block-friend
+Content-Type: application/json
+
+{
+    "email" : "min.lee@gmail.com",
+    "friendEmail": "mike.lee@gmail.com"
+}
+
+###
+POST http://localhost:3000/user/common-friends
+Content-Type: application/json
+
+{
+    "email" : "jena.tan@gmail.com",
+    "friendEmail": "min.lee@gmail.com"
+}
+
+###
+POST http://localhost:3000/post/update
+Content-Type: application/json
+
+{
+    "email" : "jena.tan@gmail.com",
+    "friendEmail": "min.lee@gmail.com",
+    "text":"Good Night!"
+}

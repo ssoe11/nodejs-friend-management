@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Jena",
+    "email": "jena.tan@gmail.com",
+    "friends": ["luna.tan@gmail.com"],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  },
+  {
+    "name": "Luna",
+    "email": "luna.tan@gmail.com",
+    "friends": ["jena.tan@gmail.com"],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  },
+  {
+    "name": "Mike",
+    "email": "mike.lee@gmail.com",
+    "friends": ["jena.tan@gmail.com"],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  },
+  {
+    "name": "Min",
+    "email": "min.lee@gmail.com",
+    "friends": ["jena.tan@gmail.com", "mike.lee@gmail.com"],
+    "posts": [{ "content": "good day!" }, { "content": "sleepy" }]
+  }
+]
